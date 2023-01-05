@@ -54,7 +54,7 @@ nav li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 200px;
+  margin: 0 25px 0 200px;
 }
 
 .banner-title {
@@ -75,4 +75,45 @@ nav li {
   font-size: 18px;
   color: #757575;
   margin-bottom: 30px;
+}
+
+/* About Me */
+.about {
+  max-width: 950px;
+  margin: 0 auto;
+  background: #fff8f3;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 100px;
+  padding: 70px 90px;
+}
+
+.section-title {
+  font-size: 35px;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+}
+
+.info-value {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
 }
