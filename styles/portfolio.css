@@ -18,7 +18,16 @@
   background: #fd6e0a;
 }
 
-/* Header & Navigation Styles */
+/* Header Styles */
+.header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+/* Navigation Styles */
 nav {
   display: flex;
   justify-content: space-between;
