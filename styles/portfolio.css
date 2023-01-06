@@ -193,3 +193,53 @@ nav li {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
+.resume .download {
+  margin-top: 30px;
+  margin-bottom: 110px;
+  text-align: center;
+}
+
+/* Contact styles */
+.contact {
+  background: #fff8f3;
+  padding: 130px 230px;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+
+.contact .description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  margin-bottom: 24px;
+  border: 0;
+  padding: 0px 30px;
+  border-radius: 10px;
+}
+
+.contact input {
+  height: 64px;
+}
+
+textarea {
+  height: 150px;
+  padding: 18px 30px;
+}
