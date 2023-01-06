@@ -155,5 +155,41 @@ nav li {
   color: #757575;
 }
 
-.skill-img {
+/* Resume */
+.resume {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.resume-container {
+  display: flex;
+  gap: 70px;
+}
+.resume .caption {
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+  margin-top: 110px;
+}
+
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-top: 30px;
+}
+
+.resume .sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-top: 10px;
+}
+
+.resume .description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
